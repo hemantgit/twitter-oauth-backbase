@@ -1,0 +1,2746 @@
+{
+  "accountOverview": [
+    {
+      "company": {
+        "name": "UAT TEST 1",
+        "id": "2G08R2AUAT01",
+        "additionalProperties": {
+
+        }
+      },
+      "accountListConnected": [
+        {
+          "providers": [
+            {
+              "providerID": "HEX-02"
+            }
+          ],
+          "accountInfo": {
+            "type": "HKDAVMST",
+            "number": "004291183888",
+            "additionalProperties": {
+
+            },
+            "description": "DDA",
+            "alias": "",
+            "status": "01",
+            "nickname": "2B888HKD       HKDAVMST       ",
+            "typeDescription": null,
+            "mainType": "Savings",
+            "subType": "000000000000",
+            "idType": "B",
+            "nicknameForTransaction": null
+          },
+          "balance": {
+            "value": 0,
+            "additionalProperties": {
+
+            },
+            "currency": "",
+            "decimal": "0",
+            "positive": 1,
+            "decimalPlaces": 0
+          },
+          "selected": true,
+          "subAccounts": null
+        },
+        {
+          "providers": [
+            {
+              "providerID": "HEX-01"
+            }
+          ],
+          "accountInfo": {
+            "type": "HKDAVSAV",
+            "number": "004291183888",
+            "additionalProperties": {
+
+            },
+            "description": "DDA",
+            "alias": "",
+            "status": "01",
+            "nickname": "2A888HKD       HKDAVSAV       ",
+            "typeDescription": null,
+            "mainType": "Savings",
+            "subType": "000000000000",
+            "idType": "B",
+            "nicknameForTransaction": null
+          },
+          "balance": {
+            "value": 0,
+            "additionalProperties": {
+
+            },
+            "currency": "",
+            "decimal": "0",
+            "positive": 1,
+            "decimalPlaces": 0
+          },
+          "selected": true,
+          "subAccounts": null
+        },
+        {
+          "providers": [
+            {
+              "providerID": "HEX-02"
+            }
+          ],
+          "accountInfo": {
+            "type": "HKDBVMST",
+            "number": "491525283838",
+            "additionalProperties": {
+
+            },
+            "description": "DDA",
+            "alias": "",
+            "status": "01",
+            "nickname": "2B838HKD       HKDBVMST       ",
+            "typeDescription": null,
+            "mainType": "Savings",
+            "subType": "000000000000",
+            "idType": "B",
+            "nicknameForTransaction": null
+          },
+          "balance": {
+            "value": 0,
+            "additionalProperties": {
+
+            },
+            "currency": "HKD",
+            "decimal": "0",
+            "positive": 1,
+            "decimalPlaces": 0
+          },
+          "selected": true,
+          "subAccounts": [
+            {
+              "providers": [
+                {
+                  "providerID": "HEX-02"
+                }
+              ],
+              "accountInfo": {
+                "type": "CIF",
+                "number": "491525283838CIF",
+                "additionalProperties": {
+
+                },
+                "description": null,
+                "alias": null,
+                "status": null,
+                "nickname": "2B838HKD       HKDBVMST       ",
+                "typeDescription": null,
+                "mainType": null,
+                "subType": null,
+                "idType": null,
+                "nicknameForTransaction": null
+              },
+              "balance": null,
+              "selected": true,
+              "subAccounts": [
+                {
+                  "providers": null,
+                  "accountInfo": {
+                    "type": "HKDBVSAV",
+                    "number": "491525283838",
+                    "additionalProperties": {
+
+                    },
+                    "description": "DDA",
+                    "alias": "",
+                    "status": "01",
+                    "nickname": "2A838HKD       HKDBVSAV       ",
+                    "typeDescription": null,
+                    "mainType": "Savings",
+                    "subType": "000000000000",
+                    "idType": "B",
+                    "nicknameForTransaction": "2A838HKD       HKDBVSAV"
+                  },
+                  "balance": {
+                    "value": 0,
+                    "additionalProperties": {
+
+                    },
+                    "currency": "",
+                    "decimal": "0",
+                    "positive": 1,
+                    "decimalPlaces": 0
+                  },
+                  "selected": false,
+                  "subAccounts": null
+                },
+                {
+                  "providers": null,
+                  "accountInfo": {
+                    "type": "HKDBVCUA",
+                    "number": "491525283838",
+                    "additionalProperties": {
+
+                    },
+                    "description": "DDA",
+                    "alias": "",
+                    "status": "01",
+                    "nickname": "2C838HKD       HKDBVCUA       ",
+                    "typeDescription": null,
+                    "mainType": "Current",
+                    "subType": "000000000000",
+                    "idType": "B",
+                    "nicknameForTransaction": "2A838HKD       HKDBVSAV"
+                  },
+                  "balance": {
+                    "value": 0,
+                    "additionalProperties": {
+
+                    },
+                    "currency": "",
+                    "decimal": "0",
+                    "positive": 1,
+                    "decimalPlaces": 0
+                  },
+                  "selected": false,
+                  "subAccounts": null
+                }
+              ]
+            },
+            {
+              "providers": [
+                {
+                  "providerID": "HEX-01"
+                }
+              ],
+              "accountInfo": {
+                "type": "FEX",
+                "number": "491525283838FEX",
+                "additionalProperties": {
+
+                },
+                "description": null,
+                "alias": null,
+                "status": null,
+                "nickname": "2B838HKD       HKDBVMST       ",
+                "typeDescription": null,
+                "mainType": null,
+                "subType": null,
+                "idType": null,
+                "nicknameForTransaction": null
+              },
+              "balance": null,
+              "selected": true,
+              "subAccounts": [
+                {
+                  "providers": null,
+                  "accountInfo": {
+                    "type": "EURBVSAV",
+                    "number": "491525283838",
+                    "additionalProperties": {
+
+                    },
+                    "description": "DDA",
+                    "alias": "",
+                    "status": "01",
+                    "nickname": "2F838EUR       EURBVSAV       ",
+                    "typeDescription": null,
+                    "mainType": "Savings",
+                    "subType": "000000000000",
+                    "idType": "B",
+                    "nicknameForTransaction": "2A838HKD       HKDBVSAV"
+                  },
+                  "balance": {
+                    "value": 0,
+                    "additionalProperties": {
+
+                    },
+                    "currency": "",
+                    "decimal": "0",
+                    "positive": 1,
+                    "decimalPlaces": 0
+                  },
+                  "selected": false,
+                  "subAccounts": null
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "accountListPending": [
+        {
+          "providers": null,
+          "accountInfo": {
+            "type": "HKDAVCUA",
+            "number": "004291183888",
+            "additionalProperties": {
+
+            },
+            "description": "DDA",
+            "alias": "",
+            "status": "01",
+            "nickname": "2C888HKD       HKDAVCUA       ",
+            "typeDescription": null,
+            "mainType": "Current",
+            "subType": "000000000000",
+            "idType": "B",
+            "nicknameForTransaction": null
+          },
+          "balance": {
+            "value": 0,
+            "additionalProperties": {
+
+            },
+            "currency": "cny",
+            "decimal": "0",
+            "positive": 1,
+            "decimalPlaces": 0
+          },
+          "selected": true,
+          "subAccounts": [
+            {
+              "providers": [
+                {
+                  "providerID": "HEX-02"
+                }
+              ],
+              "accountInfo": {
+                "type": "CIF",
+                "number": "491525283838CIF",
+                "additionalProperties": {
+
+                },
+                "description": null,
+                "alias": null,
+                "status": null,
+                "nickname": "2B838HKD       HKDBVMST       ",
+                "typeDescription": null,
+                "mainType": null,
+                "subType": null,
+                "idType": null,
+                "nicknameForTransaction": null
+              },
+              "balance": null,
+              "selected": true,
+              "subAccounts": [
+                {
+                  "providers": null,
+                  "accountInfo": {
+                    "type": "HKDBVSAV",
+                    "number": "491525283838",
+                    "additionalProperties": {
+
+                    },
+                    "description": "DDA",
+                    "alias": "",
+                    "status": "01",
+                    "nickname": "2A838HKD       HKDBVSAV       ",
+                    "typeDescription": null,
+                    "mainType": "Savings",
+                    "subType": "000000000000",
+                    "idType": "B",
+                    "nicknameForTransaction": "2A838HKD       HKDBVSAV"
+                  },
+                  "balance": {
+                    "value": 0,
+                    "additionalProperties": {
+
+                    },
+                    "currency": "hkd",
+                    "decimal": "0",
+                    "positive": 1,
+                    "decimalPlaces": 0
+                  },
+                  "selected": false,
+                  "subAccounts": null
+                },
+                {
+                  "providers": null,
+                  "accountInfo": {
+                    "type": "HKDBVCUA",
+                    "number": "491525283838",
+                    "additionalProperties": {
+
+                    },
+                    "description": "DDA",
+                    "alias": "",
+                    "status": "01",
+                    "nickname": "2C838HKD       HKDBVCUA       ",
+                    "typeDescription": null,
+                    "mainType": "Current",
+                    "subType": "000000000000",
+                    "idType": "B",
+                    "nicknameForTransaction": "2A838HKD       HKDBVSAV"
+                  },
+                  "balance": {
+                    "value": 0,
+                    "additionalProperties": {
+
+                    },
+                    "currency": "hkd",
+                    "decimal": "0",
+                    "positive": 1,
+                    "decimalPlaces": 0
+                  },
+                  "selected": false,
+                  "subAccounts": null
+                }
+              ]
+            },
+            {
+              "providers": [
+                {
+                  "providerID": "HEX-01"
+                }
+              ],
+              "accountInfo": {
+                "type": "FEX",
+                "number": "491525283838FEX",
+                "additionalProperties": {
+
+                },
+                "description": null,
+                "alias": null,
+                "status": null,
+                "nickname": "2B838HKD       HKDBVMST       ",
+                "typeDescription": null,
+                "mainType": null,
+                "subType": null,
+                "idType": null,
+                "nicknameForTransaction": null
+              },
+              "balance": null,
+              "selected": true,
+              "subAccounts": [
+                {
+                  "providers": null,
+                  "accountInfo": {
+                    "type": "EURBVSAV",
+                    "number": "491525283838",
+                    "additionalProperties": {
+
+                    },
+                    "description": "DDA",
+                    "alias": "",
+                    "status": "01",
+                    "nickname": "2F838EUR       EURBVSAV       ",
+                    "typeDescription": null,
+                    "mainType": "Savings",
+                    "subType": "000000000000",
+                    "idType": "B",
+                    "nicknameForTransaction": "2A838HKD       HKDBVSAV"
+                  },
+                  "balance": {
+                    "value": 0,
+                    "additionalProperties": {
+
+                    },
+                    "currency": "hkd",
+                    "decimal": "0",
+                    "positive": 1,
+                    "decimalPlaces": 0
+                  },
+                  "selected": false,
+                  "subAccounts": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "providers": null,
+          "accountInfo": {
+            "type": "GBPAVSAV",
+            "number": "004291183888",
+            "additionalProperties": {
+
+            },
+            "description": "DDA",
+            "alias": "",
+            "status": "01",
+            "nickname": "2F888GBP       GBPAVSAV       ",
+            "typeDescription": null,
+            "mainType": "Savings",
+            "subType": "000000000000",
+            "idType": "B",
+            "nicknameForTransaction": null
+          },
+          "balance": {
+            "value": 0,
+            "additionalProperties": {
+
+            },
+            "currency": "",
+            "decimal": "0",
+            "positive": 1,
+            "decimalPlaces": 0
+          },
+          "selected": true,
+          "subAccounts": null
+        },
+        {
+          "providers": null,
+          "accountInfo": {
+            "type": "KYDAVSAV",
+            "number": "004291183888",
+            "additionalProperties": {
+
+            },
+            "description": "DDA",
+            "alias": "",
+            "status": "01",
+            "nickname": "2F888KYD       KYDAVSAV       ",
+            "typeDescription": null,
+            "mainType": "Savings",
+            "subType": "000000000000",
+            "idType": "B",
+            "nicknameForTransaction": null
+          },
+          "balance": {
+            "value": 0,
+            "additionalProperties": {
+
+            },
+            "currency": "",
+            "decimal": "0",
+            "positive": 1,
+            "decimalPlaces": 0
+          },
+          "selected": true,
+          "subAccounts": null
+        },
+        {
+          "providers": null,
+          "accountInfo": {
+            "type": "NZDAVSAV",
+            "number": "004291183888",
+            "additionalProperties": {
+
+            },
+            "description": "DDA",
+            "alias": "",
+            "status": "01",
+            "nickname": "2F888NZD       NZDAVSAV       ",
+            "typeDescription": null,
+            "mainType": "Savings",
+            "subType": "000000000000",
+            "idType": "B",
+            "nicknameForTransaction": null
+          },
+          "balance": {
+            "value": 0,
+            "additionalProperties": {
+
+            },
+            "currency": "",
+            "decimal": "0",
+            "positive": 1,
+            "decimalPlaces": 0
+          },
+          "selected": true,
+          "subAccounts": null
+        },
+        {
+          "providers": null,
+          "accountInfo": {
+            "type": "USDAVSAV",
+            "number": "004291183888",
+            "additionalProperties": {
+
+            },
+            "description": "DDA",
+            "alias": "",
+            "status": "01",
+            "nickname": "2F888USD       USDAVSAV       ",
+            "typeDescription": null,
+            "mainType": "Savings",
+            "subType": "000000000000",
+            "idType": "B",
+            "nicknameForTransaction": null
+          },
+          "balance": {
+            "value": 0,
+            "additionalProperties": {
+
+            },
+            "currency": "",
+            "decimal": "0",
+            "positive": 1,
+            "decimalPlaces": 0
+          },
+          "selected": true,
+          "subAccounts": null
+        },
+        {
+          "providers": null,
+          "accountInfo": {
+            "type": "AVTMS",
+            "number": "0042911838880000",
+            "additionalProperties": {
+
+            },
+            "description": "DDA",
+            "alias": "",
+            "status": "",
+            "nickname": "4T888             AVTMS       ",
+            "typeDescription": null,
+            "mainType": "TimeDeposit",
+            "subType": "000000000000",
+            "idType": "B",
+            "nicknameForTransaction": null
+          },
+          "balance": {
+            "value": 0,
+            "additionalProperties": {
+
+            },
+            "currency": "",
+            "decimal": "0",
+            "positive": 1,
+            "decimalPlaces": 0
+          },
+          "selected": true,
+          "subAccounts": null
+        },
+        {
+          "providers": null,
+          "accountInfo": {
+            "type": "HKDAVINV",
+            "number": "004291183888",
+            "additionalProperties": {
+
+            },
+            "description": "DDA",
+            "alias": "",
+            "status": "09",
+            "nickname": "2R888HKD       HKDAVINV       ",
+            "typeDescription": null,
+            "mainType": "Investment",
+            "subType": "000000000000",
+            "idType": "B",
+            "nicknameForTransaction": null
+          },
+          "balance": {
+            "value": 0,
+            "additionalProperties": {
+
+            },
+            "currency": "",
+            "decimal": "0",
+            "positive": 1,
+            "decimalPlaces": 0
+          },
+          "selected": true,
+          "subAccounts": null
+        },
+        {
+          "providers": null,
+          "accountInfo": {
+            "type": "HKDAVMST",
+            "number": "004291332888",
+            "additionalProperties": {
+
+            },
+            "description": "DDA",
+            "alias": "",
+            "status": "01",
+            "nickname": "2B888HKD       HKDAVMST       ",
+            "typeDescription": null,
+            "mainType": "Savings",
+            "subType": "000000000000",
+            "idType": "B",
+            "nicknameForTransaction": null
+          },
+          "balance": {
+            "value": 0,
+            "additionalProperties": {
+
+            },
+            "currency": "",
+            "decimal": "0",
+            "positive": 1,
+            "decimalPlaces": 0
+          },
+          "selected": true,
+          "subAccounts": null
+        },
+        {
+          "providers": null,
+          "accountInfo": {
+            "type": "HKDAVSAV",
+            "number": "004291332888",
+            "additionalProperties": {
+
+            },
+            "description": "DDA",
+            "alias": "",
+            "status": "01",
+            "nickname": "2A888HKD       HKDAVSAV       ",
+            "typeDescription": null,
+            "mainType": "Savings",
+            "subType": "000000000000",
+            "idType": "B",
+            "nicknameForTransaction": null
+          },
+          "balance": {
+            "value": 0,
+            "additionalProperties": {
+
+            },
+            "currency": "",
+            "decimal": "0",
+            "positive": 1,
+            "decimalPlaces": 0
+          },
+          "selected": true,
+          "subAccounts": null
+        },
+        {
+          "providers": null,
+          "accountInfo": {
+            "type": "HKDAVCUA",
+            "number": "004291332888",
+            "additionalProperties": {
+
+            },
+            "description": "DDA",
+            "alias": "",
+            "status": "01",
+            "nickname": "2C888HKD       HKDAVCUA       ",
+            "typeDescription": null,
+            "mainType": "Current",
+            "subType": "000000000000",
+            "idType": "B",
+            "nicknameForTransaction": null
+          },
+          "balance": {
+            "value": 0,
+            "additionalProperties": {
+
+            },
+            "currency": "",
+            "decimal": "0",
+            "positive": 1,
+            "decimalPlaces": 0
+          },
+          "selected": true,
+          "subAccounts": null
+        },
+        {
+          "providers": null,
+          "accountInfo": {
+            "type": "AUDAVSAV",
+            "number": "004291332888",
+            "additionalProperties": {
+
+            },
+            "description": "DDA",
+            "alias": "",
+            "status": "01",
+            "nickname": "2F888AUD       AUDAVSAV       ",
+            "typeDescription": null,
+            "mainType": "Savings",
+            "subType": "000000000000",
+            "idType": "B",
+            "nicknameForTransaction": null
+          },
+          "balance": {
+            "value": 0,
+            "additionalProperties": {
+
+            },
+            "currency": "",
+            "decimal": "0",
+            "positive": 1,
+            "decimalPlaces": 0
+          },
+          "selected": true,
+          "subAccounts": null
+        },
+        {
+          "providers": null,
+          "accountInfo": {
+            "type": "CADAVSAV",
+            "number": "004291332888",
+            "additionalProperties": {
+
+            },
+            "description": "DDA",
+            "alias": "",
+            "status": "01",
+            "nickname": "2F888CAD       CADAVSAV       ",
+            "typeDescription": null,
+            "mainType": "Savings",
+            "subType": "000000000000",
+            "idType": "B",
+            "nicknameForTransaction": null
+          },
+          "balance": {
+            "value": 0,
+            "additionalProperties": {
+
+            },
+            "currency": "",
+            "decimal": "0",
+            "positive": 1,
+            "decimalPlaces": 0
+          },
+          "selected": true,
+          "subAccounts": null
+        },
+        {
+          "providers": null,
+          "accountInfo": {
+            "type": "CHFAVSAV",
+            "number": "004291332888",
+            "additionalProperties": {
+
+            },
+            "description": "DDA",
+            "alias": "",
+            "status": "01",
+            "nickname": "2F888CHF       CHFAVSAV       ",
+            "typeDescription": null,
+            "mainType": "Savings",
+            "subType": "000000000000",
+            "idType": "B",
+            "nicknameForTransaction": null
+          },
+          "balance": {
+            "value": 0,
+            "additionalProperties": {
+
+            },
+            "currency": "",
+            "decimal": "0",
+            "positive": 1,
+            "decimalPlaces": 0
+          },
+          "selected": true,
+          "subAccounts": null
+        },
+        {
+          "providers": null,
+          "accountInfo": {
+            "type": "GBPAVSAV",
+            "number": "004291332888",
+            "additionalProperties": {
+
+            },
+            "description": "DDA",
+            "alias": "",
+            "status": "01",
+            "nickname": "2F888GBP       GBPAVSAV       ",
+            "typeDescription": null,
+            "mainType": "Savings",
+            "subType": "000000000000",
+            "idType": "B",
+            "nicknameForTransaction": null
+          },
+          "balance": {
+            "value": 0,
+            "additionalProperties": {
+
+            },
+            "currency": "",
+            "decimal": "0",
+            "positive": 1,
+            "decimalPlaces": 0
+          },
+          "selected": true,
+          "subAccounts": null
+        },
+        {
+          "providers": null,
+          "accountInfo": {
+            "type": "JPYAVSAV",
+            "number": "004291332888",
+            "additionalProperties": {
+
+            },
+            "description": "DDA",
+            "alias": "",
+            "status": "01",
+            "nickname": "2F888JPY       JPYAVSAV       ",
+            "typeDescription": null,
+            "mainType": "Savings",
+            "subType": "000000000000",
+            "idType": "B",
+            "nicknameForTransaction": null
+          },
+          "balance": {
+            "value": 0,
+            "additionalProperties": {
+
+            },
+            "currency": "",
+            "decimal": "0",
+            "positive": 1,
+            "decimalPlaces": 0
+          },
+          "selected": true,
+          "subAccounts": null
+        },
+        {
+          "providers": null,
+          "accountInfo": {
+            "type": "NZDAVSAV",
+            "number": "004291332888",
+            "additionalProperties": {
+
+            },
+            "description": "DDA",
+            "alias": "",
+            "status": "01",
+            "nickname": "2F888NZD       NZDAVSAV       ",
+            "typeDescription": null,
+            "mainType": "Savings",
+            "subType": "000000000000",
+            "idType": "B",
+            "nicknameForTransaction": null
+          },
+          "balance": {
+            "value": 0,
+            "additionalProperties": {
+
+            },
+            "currency": "",
+            "decimal": "0",
+            "positive": 1,
+            "decimalPlaces": 0
+          },
+          "selected": true,
+          "subAccounts": null
+        },
+        {
+          "providers": null,
+          "accountInfo": {
+            "type": "USDAVSAV",
+            "number": "004291332888",
+            "additionalProperties": {
+
+            },
+            "description": "DDA",
+            "alias": "",
+            "status": "01",
+            "nickname": "2F888USD       USDAVSAV       ",
+            "typeDescription": null,
+            "mainType": "Savings",
+            "subType": "000000000000",
+            "idType": "B",
+            "nicknameForTransaction": null
+          },
+          "balance": {
+            "value": 0,
+            "additionalProperties": {
+
+            },
+            "currency": "",
+            "decimal": "0",
+            "positive": 1,
+            "decimalPlaces": 0
+          },
+          "selected": true,
+          "subAccounts": null
+        },
+        {
+          "providers": null,
+          "accountInfo": {
+            "type": "XALAVSAV",
+            "number": "004291332888",
+            "additionalProperties": {
+
+            },
+            "description": "DDA",
+            "alias": "",
+            "status": "01",
+            "nickname": "2F888XAL       XALAVSAV       ",
+            "typeDescription": null,
+            "mainType": "Savings",
+            "subType": "000000000000",
+            "idType": "B",
+            "nicknameForTransaction": null
+          },
+          "balance": {
+            "value": 0,
+            "additionalProperties": {
+
+            },
+            "currency": "",
+            "decimal": "0",
+            "positive": 1,
+            "decimalPlaces": 0
+          },
+          "selected": true,
+          "subAccounts": null
+        },
+        {
+          "providers": null,
+          "accountInfo": {
+            "type": "AVTMS",
+            "number": "0042913328880000",
+            "additionalProperties": {
+
+            },
+            "description": "DDA",
+            "alias": "",
+            "status": "",
+            "nickname": "4T888             AVTMS       ",
+            "typeDescription": null,
+            "mainType": "TimeDeposit",
+            "subType": "000000000000",
+            "idType": "B",
+            "nicknameForTransaction": null
+          },
+          "balance": {
+            "value": 0,
+            "additionalProperties": {
+
+            },
+            "currency": "",
+            "decimal": "0",
+            "positive": 1,
+            "decimalPlaces": 0
+          },
+          "selected": true,
+          "subAccounts": null
+        },
+        {
+          "providers": null,
+          "accountInfo": {
+            "type": "HKDAVINV",
+            "number": "004291332888",
+            "additionalProperties": {
+
+            },
+            "description": "DDA",
+            "alias": "",
+            "status": "09",
+            "nickname": "2R888HKD       HKDAVINV       ",
+            "typeDescription": null,
+            "mainType": "Investment",
+            "subType": "000000000000",
+            "idType": "B",
+            "nicknameForTransaction": null
+          },
+          "balance": {
+            "value": 0,
+            "additionalProperties": {
+
+            },
+            "currency": "",
+            "decimal": "0",
+            "positive": 1,
+            "decimalPlaces": 0
+          },
+          "selected": true,
+          "subAccounts": null
+        },
+        {
+          "providers": null,
+          "accountInfo": {
+            "type": "BVTMS",
+            "number": "4915252838380000",
+            "additionalProperties": {
+
+            },
+            "description": "DDA",
+            "alias": "",
+            "status": "",
+            "nickname": "4T838             BVTMS       ",
+            "typeDescription": null,
+            "mainType": "TimeDeposit",
+            "subType": "000000000000",
+            "idType": "B",
+            "nicknameForTransaction": "4T838             BVTMS"
+          },
+          "balance": {
+            "value": 0,
+            "additionalProperties": {
+
+            },
+            "currency": "",
+            "decimal": "0",
+            "positive": 1,
+            "decimalPlaces": 0
+          },
+          "selected": true,
+          "subAccounts": null
+        },
+        {
+          "providers": null,
+          "accountInfo": {
+            "type": "HKDBVINV",
+            "number": "491525283838",
+            "additionalProperties": {
+
+            },
+            "description": "DDA",
+            "alias": "",
+            "status": "",
+            "nickname": "2R838HKD       HKDBVINV       ",
+            "typeDescription": null,
+            "mainType": "Investment",
+            "subType": "000000000000",
+            "idType": "B",
+            "nicknameForTransaction": "2R838HKD       HKDBVINV"
+          },
+          "balance": {
+            "value": 0,
+            "additionalProperties": {
+
+            },
+            "currency": "",
+            "decimal": "0",
+            "positive": 1,
+            "decimalPlaces": 0
+          },
+          "selected": true,
+          "subAccounts": null
+        },
+        {
+          "providers": null,
+          "accountInfo": {
+            "type": "CNYCRRC1",
+            "number": "6250340001518723",
+            "additionalProperties": {
+
+            },
+            "description": "DDA",
+            "alias": "",
+            "status": "",
+            "nickname": "3RC  CNY       CNYCRRC1       ",
+            "typeDescription": null,
+            "mainType": "Card",
+            "subType": "000000000002",
+            "idType": "B",
+            "nicknameForTransaction": null
+          },
+          "balance": {
+            "value": 33300,
+            "additionalProperties": {
+
+            },
+            "currency": "CNY",
+            "decimal": "333.00",
+            "positive": 0,
+            "decimalPlaces": 2
+          },
+          "selected": true,
+          "subAccounts": null
+        },
+        {
+          "providers": null,
+          "accountInfo": {
+            "type": "EURSSCUA",
+            "number": "001063981206",
+            "additionalProperties": {
+
+            },
+            "description": "DDA",
+            "alias": "",
+            "status": "",
+            "nickname": "2F206EUR       EURSSCUA       ",
+            "typeDescription": null,
+            "mainType": "Current",
+            "subType": "000000000000",
+            "idType": "B",
+            "nicknameForTransaction": null
+          },
+          "balance": {
+            "value": 10007777,
+            "additionalProperties": {
+
+            },
+            "currency": "EUR",
+            "decimal": "100,077.77",
+            "positive": 1,
+            "decimalPlaces": 2
+          },
+          "selected": true,
+          "subAccounts": null
+        },
+        {
+          "providers": null,
+          "accountInfo": {
+            "type": "CADSSSSA",
+            "number": "001565332279",
+            "additionalProperties": {
+
+            },
+            "description": "DDA",
+            "alias": "",
+            "status": "",
+            "nickname": "2F279CAD       CADSSSSA       ",
+            "typeDescription": null,
+            "mainType": "Savings",
+            "subType": "000000000000",
+            "idType": "B",
+            "nicknameForTransaction": null
+          },
+          "balance": {
+            "value": 9674166,
+            "additionalProperties": {
+
+            },
+            "currency": "CAD",
+            "decimal": "96,741.66",
+            "positive": 1,
+            "decimalPlaces": 2
+          },
+          "selected": true,
+          "subAccounts": null
+        },
+        {
+          "providers": null,
+          "accountInfo": {
+            "type": "JPYSSCUA",
+            "number": "002191732207",
+            "additionalProperties": {
+
+            },
+            "description": "DDA",
+            "alias": "",
+            "status": "",
+            "nickname": "2F207JPY       JPYSSCUA       ",
+            "typeDescription": null,
+            "mainType": "Current",
+            "subType": "000000000000",
+            "idType": "B",
+            "nicknameForTransaction": null
+          },
+          "balance": {
+            "value": 9979465,
+            "additionalProperties": {
+
+            },
+            "currency": "JPY",
+            "decimal": "9,979,465",
+            "positive": 1,
+            "decimalPlaces": 0
+          },
+          "selected": true,
+          "subAccounts": null
+        }
+      ]
+    },
+    {
+      "company": {
+        "name": "THOMAXXXXXWN DEXXXXXSERVIXXXXX     XXXXX     XXXXX     XXXXX     XXXXX",
+        "id": "35224273000",
+        "additionalProperties": {
+
+        }
+      },
+      "accountListConnected": [
+
+      ],
+      "accountListPending": [
+        {
+          "providers": null,
+          "accountInfo": {
+            "type": "HKDBVMST",
+            "number": "001000132838",
+            "additionalProperties": {
+
+            },
+            "description": "DDA",
+            "alias": "",
+            "status": "01",
+            "nickname": "2B838HKD       HKDBVMST       ",
+            "typeDescription": null,
+            "mainType": "Savings",
+            "subType": "000000000000",
+            "idType": "B",
+            "nicknameForTransaction": null
+          },
+          "balance": {
+            "value": 0,
+            "additionalProperties": {
+
+            },
+            "currency": "HKD",
+            "decimal": "0",
+            "positive": 1,
+            "decimalPlaces": 0
+          },
+          "selected": true,
+          "subAccounts": [
+            {
+              "providers": null,
+              "accountInfo": {
+                "type": "CIF",
+                "number": "001000132838CIF",
+                "additionalProperties": {
+
+                },
+                "description": null,
+                "alias": null,
+                "status": null,
+                "nickname": "2B838HKD       HKDBVMST       ",
+                "typeDescription": null,
+                "mainType": null,
+                "subType": null,
+                "idType": null,
+                "nicknameForTransaction": null
+              },
+              "balance": null,
+              "selected": true,
+              "subAccounts": [
+                {
+                  "providers": null,
+                  "accountInfo": {
+                    "type": "HKDBVSAV",
+                    "number": "001000132838",
+                    "additionalProperties": {
+
+                    },
+                    "description": "DDA",
+                    "alias": "",
+                    "status": "01",
+                    "nickname": "2A838HKD       HKDBVSAV       ",
+                    "typeDescription": null,
+                    "mainType": "Savings",
+                    "subType": "000000000000",
+                    "idType": "B",
+                    "nicknameForTransaction": "2A838HKD       HKDBVSAV"
+                  },
+                  "balance": {
+                    "value": 0,
+                    "additionalProperties": {
+
+                    },
+                    "currency": "",
+                    "decimal": "0",
+                    "positive": 1,
+                    "decimalPlaces": 0
+                  },
+                  "selected": false,
+                  "subAccounts": null
+                },
+                {
+                  "providers": null,
+                  "accountInfo": {
+                    "type": "HKDBVCUA",
+                    "number": "001000132838",
+                    "additionalProperties": {
+
+                    },
+                    "description": "DDA",
+                    "alias": "",
+                    "status": "01",
+                    "nickname": "2C838HKD       HKDBVCUA       ",
+                    "typeDescription": null,
+                    "mainType": "Current",
+                    "subType": "000000000000",
+                    "idType": "B",
+                    "nicknameForTransaction": "2A838HKD       HKDBVSAV"
+                  },
+                  "balance": {
+                    "value": 0,
+                    "additionalProperties": {
+
+                    },
+                    "currency": "",
+                    "decimal": "0",
+                    "positive": 1,
+                    "decimalPlaces": 0
+                  },
+                  "selected": false,
+                  "subAccounts": null
+                }
+              ]
+            },
+            {
+              "providers": null,
+              "accountInfo": {
+                "type": "FEX",
+                "number": "001000132838FEX",
+                "additionalProperties": {
+
+                },
+                "description": null,
+                "alias": null,
+                "status": null,
+                "nickname": "2B838HKD       HKDBVMST       ",
+                "typeDescription": null,
+                "mainType": null,
+                "subType": null,
+                "idType": null,
+                "nicknameForTransaction": null
+              },
+              "balance": null,
+              "selected": true,
+              "subAccounts": [
+                {
+                  "providers": null,
+                  "accountInfo": {
+                    "type": "AUDBVSAV",
+                    "number": "001000132838",
+                    "additionalProperties": {
+
+                    },
+                    "description": "DDA",
+                    "alias": "",
+                    "status": "01",
+                    "nickname": "2F838AUD       AUDBVSAV       ",
+                    "typeDescription": null,
+                    "mainType": "Savings",
+                    "subType": "000000000000",
+                    "idType": "B",
+                    "nicknameForTransaction": "2A838HKD       HKDBVSAV"
+                  },
+                  "balance": {
+                    "value": 10000000000,
+                    "additionalProperties": {
+
+                    },
+                    "currency": "AUD",
+                    "decimal": "100,000,000.00",
+                    "positive": 1,
+                    "decimalPlaces": 2
+                  },
+                  "selected": false,
+                  "subAccounts": null
+                },
+                {
+                  "providers": null,
+                  "accountInfo": {
+                    "type": "CADBVSAV",
+                    "number": "001000132838",
+                    "additionalProperties": {
+
+                    },
+                    "description": "DDA",
+                    "alias": "",
+                    "status": "01",
+                    "nickname": "2F838CAD       CADBVSAV       ",
+                    "typeDescription": null,
+                    "mainType": "Savings",
+                    "subType": "000000000000",
+                    "idType": "B",
+                    "nicknameForTransaction": "2A838HKD       HKDBVSAV"
+                  },
+                  "balance": {
+                    "value": 10000000000,
+                    "additionalProperties": {
+
+                    },
+                    "currency": "CAD",
+                    "decimal": "100,000,000.00",
+                    "positive": 1,
+                    "decimalPlaces": 2
+                  },
+                  "selected": false,
+                  "subAccounts": null
+                },
+                {
+                  "providers": null,
+                  "accountInfo": {
+                    "type": "CHFBVSAV",
+                    "number": "001000132838",
+                    "additionalProperties": {
+
+                    },
+                    "description": "DDA",
+                    "alias": "",
+                    "status": "01",
+                    "nickname": "2F838CHF       CHFBVSAV       ",
+                    "typeDescription": null,
+                    "mainType": "Savings",
+                    "subType": "000000000000",
+                    "idType": "B",
+                    "nicknameForTransaction": "2A838HKD       HKDBVSAV"
+                  },
+                  "balance": {
+                    "value": 10000000000,
+                    "additionalProperties": {
+
+                    },
+                    "currency": "CHF",
+                    "decimal": "100,000,000.00",
+                    "positive": 1,
+                    "decimalPlaces": 2
+                  },
+                  "selected": false,
+                  "subAccounts": null
+                },
+                {
+                  "providers": null,
+                  "accountInfo": {
+                    "type": "CNYBVDBC",
+                    "number": "001000132838",
+                    "additionalProperties": {
+
+                    },
+                    "description": "DDA",
+                    "alias": "",
+                    "status": "01",
+                    "nickname": "2F838CNY       CNYBVDBC       ",
+                    "typeDescription": null,
+                    "mainType": "Savings",
+                    "subType": "000000000000",
+                    "idType": "B",
+                    "nicknameForTransaction": "2A838HKD       HKDBVSAV"
+                  },
+                  "balance": {
+                    "value": 10000000000,
+                    "additionalProperties": {
+
+                    },
+                    "currency": "CNY",
+                    "decimal": "100,000,000.00",
+                    "positive": 1,
+                    "decimalPlaces": 2
+                  },
+                  "selected": false,
+                  "subAccounts": null
+                },
+                {
+                  "providers": null,
+                  "accountInfo": {
+                    "type": "EURBVSAV",
+                    "number": "001000132838",
+                    "additionalProperties": {
+
+                    },
+                    "description": "DDA",
+                    "alias": "",
+                    "status": "01",
+                    "nickname": "2F838EUR       EURBVSAV       ",
+                    "typeDescription": null,
+                    "mainType": "Savings",
+                    "subType": "000000000000",
+                    "idType": "B",
+                    "nicknameForTransaction": "2A838HKD       HKDBVSAV"
+                  },
+                  "balance": {
+                    "value": 10000000000,
+                    "additionalProperties": {
+
+                    },
+                    "currency": "EUR",
+                    "decimal": "100,000,000.00",
+                    "positive": 1,
+                    "decimalPlaces": 2
+                  },
+                  "selected": false,
+                  "subAccounts": null
+                },
+                {
+                  "providers": null,
+                  "accountInfo": {
+                    "type": "GBPBVSAV",
+                    "number": "001000132838",
+                    "additionalProperties": {
+
+                    },
+                    "description": "DDA",
+                    "alias": "",
+                    "status": "01",
+                    "nickname": "2F838GBP       GBPBVSAV       ",
+                    "typeDescription": null,
+                    "mainType": "Savings",
+                    "subType": "000000000000",
+                    "idType": "B",
+                    "nicknameForTransaction": "2A838HKD       HKDBVSAV"
+                  },
+                  "balance": {
+                    "value": 10000000000,
+                    "additionalProperties": {
+
+                    },
+                    "currency": "GBP",
+                    "decimal": "100,000,000.00",
+                    "positive": 1,
+                    "decimalPlaces": 2
+                  },
+                  "selected": false,
+                  "subAccounts": null
+                },
+                {
+                  "providers": null,
+                  "accountInfo": {
+                    "type": "JPYBVSAV",
+                    "number": "001000132838",
+                    "additionalProperties": {
+
+                    },
+                    "description": "DDA",
+                    "alias": "",
+                    "status": "01",
+                    "nickname": "2F838JPY       JPYBVSAV       ",
+                    "typeDescription": null,
+                    "mainType": "Savings",
+                    "subType": "000000000000",
+                    "idType": "B",
+                    "nicknameForTransaction": "2A838HKD       HKDBVSAV"
+                  },
+                  "balance": {
+                    "value": 10000000000,
+                    "additionalProperties": {
+
+                    },
+                    "currency": "JPY",
+                    "decimal": "10,000,000,000",
+                    "positive": 1,
+                    "decimalPlaces": 0
+                  },
+                  "selected": false,
+                  "subAccounts": null
+                },
+                {
+                  "providers": null,
+                  "accountInfo": {
+                    "type": "NZDBVSAV",
+                    "number": "001000132838",
+                    "additionalProperties": {
+
+                    },
+                    "description": "DDA",
+                    "alias": "",
+                    "status": "01",
+                    "nickname": "2F838NZD       NZDBVSAV       ",
+                    "typeDescription": null,
+                    "mainType": "Savings",
+                    "subType": "000000000000",
+                    "idType": "B",
+                    "nicknameForTransaction": "2A838HKD       HKDBVSAV"
+                  },
+                  "balance": {
+                    "value": 10000000000,
+                    "additionalProperties": {
+
+                    },
+                    "currency": "NZD",
+                    "decimal": "100,000,000.00",
+                    "positive": 1,
+                    "decimalPlaces": 2
+                  },
+                  "selected": false,
+                  "subAccounts": null
+                },
+                {
+                  "providers": null,
+                  "accountInfo": {
+                    "type": "SGDBVSAV",
+                    "number": "001000132838",
+                    "additionalProperties": {
+
+                    },
+                    "description": "DDA",
+                    "alias": "",
+                    "status": "01",
+                    "nickname": "2F838SGD       SGDBVSAV       ",
+                    "typeDescription": null,
+                    "mainType": "Savings",
+                    "subType": "000000000000",
+                    "idType": "B",
+                    "nicknameForTransaction": "2A838HKD       HKDBVSAV"
+                  },
+                  "balance": {
+                    "value": 10000000000,
+                    "additionalProperties": {
+
+                    },
+                    "currency": "SGD",
+                    "decimal": "100,000,000.00",
+                    "positive": 1,
+                    "decimalPlaces": 2
+                  },
+                  "selected": false,
+                  "subAccounts": null
+                },
+                {
+                  "providers": null,
+                  "accountInfo": {
+                    "type": "THBBVSAV",
+                    "number": "001000132838",
+                    "additionalProperties": {
+
+                    },
+                    "description": "DDA",
+                    "alias": "",
+                    "status": "01",
+                    "nickname": "2F838THB       THBBVSAV       ",
+                    "typeDescription": null,
+                    "mainType": "Savings",
+                    "subType": "000000000000",
+                    "idType": "B",
+                    "nicknameForTransaction": "2A838HKD       HKDBVSAV"
+                  },
+                  "balance": {
+                    "value": 10000000000,
+                    "additionalProperties": {
+
+                    },
+                    "currency": "THB",
+                    "decimal": "100,000,000.00",
+                    "positive": 1,
+                    "decimalPlaces": 2
+                  },
+                  "selected": false,
+                  "subAccounts": null
+                },
+                {
+                  "providers": null,
+                  "accountInfo": {
+                    "type": "USDBVSAV",
+                    "number": "001000132838",
+                    "additionalProperties": {
+
+                    },
+                    "description": "DDA",
+                    "alias": "",
+                    "status": "01",
+                    "nickname": "2F838USD       USDBVSAV       ",
+                    "typeDescription": null,
+                    "mainType": "Savings",
+                    "subType": "000000000000",
+                    "idType": "B",
+                    "nicknameForTransaction": "2A838HKD       HKDBVSAV"
+                  },
+                  "balance": {
+                    "value": 10000000000,
+                    "additionalProperties": {
+
+                    },
+                    "currency": "USD",
+                    "decimal": "100,000,000.00",
+                    "positive": 1,
+                    "decimalPlaces": 2
+                  },
+                  "selected": false,
+                  "subAccounts": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "providers": null,
+          "accountInfo": {
+            "type": "BVTMS",
+            "number": "0010001328380000",
+            "additionalProperties": {
+
+            },
+            "description": "DDA",
+            "alias": "",
+            "status": "",
+            "nickname": "4T838             BVTMS       ",
+            "typeDescription": null,
+            "mainType": "TimeDeposit",
+            "subType": "000000000000",
+            "idType": "B",
+            "nicknameForTransaction": "4T838             BVTMS"
+          },
+          "balance": {
+            "value": 0,
+            "additionalProperties": {
+
+            },
+            "currency": "",
+            "decimal": "0",
+            "positive": 1,
+            "decimalPlaces": 0
+          },
+          "selected": true,
+          "subAccounts": null
+        },
+        {
+          "providers": null,
+          "accountInfo": {
+            "type": "HKDBVINV",
+            "number": "001000132838",
+            "additionalProperties": {
+
+            },
+            "description": "DDA",
+            "alias": "",
+            "status": "09",
+            "nickname": "2R838HKD       HKDBVINV       ",
+            "typeDescription": null,
+            "mainType": "Investment",
+            "subType": "000000000000",
+            "idType": "B",
+            "nicknameForTransaction": "2R838HKD       HKDBVINV"
+          },
+          "balance": {
+            "value": 0,
+            "additionalProperties": {
+
+            },
+            "currency": "",
+            "decimal": "0",
+            "positive": 1,
+            "decimalPlaces": 0
+          },
+          "selected": true,
+          "subAccounts": null
+        },
+        {
+          "providers": null,
+          "accountInfo": {
+            "type": "HKDILBPF",
+            "number": "001093707080",
+            "additionalProperties": {
+
+            },
+            "description": "DDA",
+            "alias": "",
+            "status": "",
+            "nickname": "2L080HKD       HKDILBPF       ",
+            "typeDescription": null,
+            "mainType": "Loan",
+            "subType": "000000000000",
+            "idType": "B",
+            "nicknameForTransaction": null
+          },
+          "balance": {
+            "value": 73375591,
+            "additionalProperties": {
+
+            },
+            "currency": "HKD",
+            "decimal": "733,755.91",
+            "positive": 0,
+            "decimalPlaces": 2
+          },
+          "selected": true,
+          "subAccounts": null
+        }
+      ]
+    },
+    {
+      "company": {
+        "name": "WINCO PAPER PRODUCTS CO LTD",
+        "id": "28641990001",
+        "additionalProperties": {
+
+        }
+      },
+      "accountListConnected": [
+
+      ],
+      "accountListPending": [
+        {
+          "providers": null,
+          "accountInfo": {
+            "type": "USDSSSAV",
+            "number": "11111111111111111111111111111111",
+            "additionalProperties": {
+
+            },
+            "description": "DDA",
+            "alias": "",
+            "status": "",
+            "nickname": "1U   USD       USDSSSAV       ",
+            "typeDescription": null,
+            "mainType": "Savings",
+            "subType": "000000000000",
+            "idType": "B",
+            "nicknameForTransaction": null
+          },
+          "balance": {
+            "value": 0,
+            "additionalProperties": {
+
+            },
+            "currency": "",
+            "decimal": "0",
+            "positive": 1,
+            "decimalPlaces": 0
+          },
+          "selected": true,
+          "subAccounts": null
+        },
+        {
+          "providers": null,
+          "accountInfo": {
+            "type": "HKDBVMST",
+            "number": "001000124838",
+            "additionalProperties": {
+
+            },
+            "description": "DDA",
+            "alias": "",
+            "status": "01",
+            "nickname": "2B838HKD       HKDBVMST       ",
+            "typeDescription": null,
+            "mainType": "Savings",
+            "subType": "000000000000",
+            "idType": "B",
+            "nicknameForTransaction": null
+          },
+          "balance": {
+            "value": 0,
+            "additionalProperties": {
+
+            },
+            "currency": "HKD",
+            "decimal": "0",
+            "positive": 1,
+            "decimalPlaces": 0
+          },
+          "selected": true,
+          "subAccounts": [
+            {
+              "providers": null,
+              "accountInfo": {
+                "type": "CIF",
+                "number": "001000124838CIF",
+                "additionalProperties": {
+
+                },
+                "description": null,
+                "alias": null,
+                "status": null,
+                "nickname": "2B838HKD       HKDBVMST       ",
+                "typeDescription": null,
+                "mainType": null,
+                "subType": null,
+                "idType": null,
+                "nicknameForTransaction": null
+              },
+              "balance": null,
+              "selected": true,
+              "subAccounts": [
+                {
+                  "providers": null,
+                  "accountInfo": {
+                    "type": "HKDBVSAV",
+                    "number": "001000124838",
+                    "additionalProperties": {
+
+                    },
+                    "description": "DDA",
+                    "alias": "",
+                    "status": "01",
+                    "nickname": "2A838HKD       HKDBVSAV       ",
+                    "typeDescription": null,
+                    "mainType": "Savings",
+                    "subType": "000000000000",
+                    "idType": "B",
+                    "nicknameForTransaction": "2A838HKD       HKDBVSAV"
+                  },
+                  "balance": {
+                    "value": 0,
+                    "additionalProperties": {
+
+                    },
+                    "currency": "",
+                    "decimal": "0",
+                    "positive": 1,
+                    "decimalPlaces": 0
+                  },
+                  "selected": false,
+                  "subAccounts": null
+                },
+                {
+                  "providers": null,
+                  "accountInfo": {
+                    "type": "HKDBVCUA",
+                    "number": "001000124838",
+                    "additionalProperties": {
+
+                    },
+                    "description": "DDA",
+                    "alias": "",
+                    "status": "01",
+                    "nickname": "2C838HKD       HKDBVCUA       ",
+                    "typeDescription": null,
+                    "mainType": "Current",
+                    "subType": "000000000000",
+                    "idType": "B",
+                    "nicknameForTransaction": "2A838HKD       HKDBVSAV"
+                  },
+                  "balance": {
+                    "value": 0,
+                    "additionalProperties": {
+
+                    },
+                    "currency": "",
+                    "decimal": "0",
+                    "positive": 1,
+                    "decimalPlaces": 0
+                  },
+                  "selected": false,
+                  "subAccounts": null
+                }
+              ]
+            },
+            {
+              "providers": null,
+              "accountInfo": {
+                "type": "FEX",
+                "number": "001000124838FEX",
+                "additionalProperties": {
+
+                },
+                "description": null,
+                "alias": null,
+                "status": null,
+                "nickname": "2B838HKD       HKDBVMST       ",
+                "typeDescription": null,
+                "mainType": null,
+                "subType": null,
+                "idType": null,
+                "nicknameForTransaction": null
+              },
+              "balance": null,
+              "selected": true,
+              "subAccounts": [
+                {
+                  "providers": null,
+                  "accountInfo": {
+                    "type": "AUDBVSAV",
+                    "number": "001000124838",
+                    "additionalProperties": {
+
+                    },
+                    "description": "DDA",
+                    "alias": "",
+                    "status": "01",
+                    "nickname": "2F838AUD       AUDBVSAV       ",
+                    "typeDescription": null,
+                    "mainType": "Savings",
+                    "subType": "000000000000",
+                    "idType": "B",
+                    "nicknameForTransaction": "2A838HKD       HKDBVSAV"
+                  },
+                  "balance": {
+                    "value": 10000000000,
+                    "additionalProperties": {
+
+                    },
+                    "currency": "AUD",
+                    "decimal": "100,000,000.00",
+                    "positive": 1,
+                    "decimalPlaces": 2
+                  },
+                  "selected": false,
+                  "subAccounts": null
+                },
+                {
+                  "providers": null,
+                  "accountInfo": {
+                    "type": "CADBVSAV",
+                    "number": "001000124838",
+                    "additionalProperties": {
+
+                    },
+                    "description": "DDA",
+                    "alias": "",
+                    "status": "01",
+                    "nickname": "2F838CAD       CADBVSAV       ",
+                    "typeDescription": null,
+                    "mainType": "Savings",
+                    "subType": "000000000000",
+                    "idType": "B",
+                    "nicknameForTransaction": "2A838HKD       HKDBVSAV"
+                  },
+                  "balance": {
+                    "value": 10000000000,
+                    "additionalProperties": {
+
+                    },
+                    "currency": "CAD",
+                    "decimal": "100,000,000.00",
+                    "positive": 1,
+                    "decimalPlaces": 2
+                  },
+                  "selected": false,
+                  "subAccounts": null
+                },
+                {
+                  "providers": null,
+                  "accountInfo": {
+                    "type": "CHFBVSAV",
+                    "number": "001000124838",
+                    "additionalProperties": {
+
+                    },
+                    "description": "DDA",
+                    "alias": "",
+                    "status": "01",
+                    "nickname": "2F838CHF       CHFBVSAV       ",
+                    "typeDescription": null,
+                    "mainType": "Savings",
+                    "subType": "000000000000",
+                    "idType": "B",
+                    "nicknameForTransaction": "2A838HKD       HKDBVSAV"
+                  },
+                  "balance": {
+                    "value": 10000000000,
+                    "additionalProperties": {
+
+                    },
+                    "currency": "CHF",
+                    "decimal": "100,000,000.00",
+                    "positive": 1,
+                    "decimalPlaces": 2
+                  },
+                  "selected": false,
+                  "subAccounts": null
+                },
+                {
+                  "providers": null,
+                  "accountInfo": {
+                    "type": "CNYBVDBC",
+                    "number": "001000124838",
+                    "additionalProperties": {
+
+                    },
+                    "description": "DDA",
+                    "alias": "",
+                    "status": "01",
+                    "nickname": "2F838CNY       CNYBVDBC       ",
+                    "typeDescription": null,
+                    "mainType": "Savings",
+                    "subType": "000000000000",
+                    "idType": "B",
+                    "nicknameForTransaction": "2A838HKD       HKDBVSAV"
+                  },
+                  "balance": {
+                    "value": 10000000000,
+                    "additionalProperties": {
+
+                    },
+                    "currency": "CNY",
+                    "decimal": "100,000,000.00",
+                    "positive": 1,
+                    "decimalPlaces": 2
+                  },
+                  "selected": false,
+                  "subAccounts": null
+                },
+                {
+                  "providers": null,
+                  "accountInfo": {
+                    "type": "EURBVSAV",
+                    "number": "001000124838",
+                    "additionalProperties": {
+
+                    },
+                    "description": "DDA",
+                    "alias": "",
+                    "status": "01",
+                    "nickname": "2F838EUR       EURBVSAV       ",
+                    "typeDescription": null,
+                    "mainType": "Savings",
+                    "subType": "000000000000",
+                    "idType": "B",
+                    "nicknameForTransaction": "2A838HKD       HKDBVSAV"
+                  },
+                  "balance": {
+                    "value": 10000000000,
+                    "additionalProperties": {
+
+                    },
+                    "currency": "EUR",
+                    "decimal": "100,000,000.00",
+                    "positive": 1,
+                    "decimalPlaces": 2
+                  },
+                  "selected": false,
+                  "subAccounts": null
+                },
+                {
+                  "providers": null,
+                  "accountInfo": {
+                    "type": "GBPBVSAV",
+                    "number": "001000124838",
+                    "additionalProperties": {
+
+                    },
+                    "description": "DDA",
+                    "alias": "",
+                    "status": "01",
+                    "nickname": "2F838GBP       GBPBVSAV       ",
+                    "typeDescription": null,
+                    "mainType": "Savings",
+                    "subType": "000000000000",
+                    "idType": "B",
+                    "nicknameForTransaction": "2A838HKD       HKDBVSAV"
+                  },
+                  "balance": {
+                    "value": 10000000000,
+                    "additionalProperties": {
+
+                    },
+                    "currency": "GBP",
+                    "decimal": "100,000,000.00",
+                    "positive": 1,
+                    "decimalPlaces": 2
+                  },
+                  "selected": false,
+                  "subAccounts": null
+                },
+                {
+                  "providers": null,
+                  "accountInfo": {
+                    "type": "JPYBVSAV",
+                    "number": "001000124838",
+                    "additionalProperties": {
+
+                    },
+                    "description": "DDA",
+                    "alias": "",
+                    "status": "01",
+                    "nickname": "2F838JPY       JPYBVSAV       ",
+                    "typeDescription": null,
+                    "mainType": "Savings",
+                    "subType": "000000000000",
+                    "idType": "B",
+                    "nicknameForTransaction": "2A838HKD       HKDBVSAV"
+                  },
+                  "balance": {
+                    "value": 10000000000,
+                    "additionalProperties": {
+
+                    },
+                    "currency": "JPY",
+                    "decimal": "10,000,000,000",
+                    "positive": 1,
+                    "decimalPlaces": 0
+                  },
+                  "selected": false,
+                  "subAccounts": null
+                },
+                {
+                  "providers": null,
+                  "accountInfo": {
+                    "type": "NZDBVSAV",
+                    "number": "001000124838",
+                    "additionalProperties": {
+
+                    },
+                    "description": "DDA",
+                    "alias": "",
+                    "status": "01",
+                    "nickname": "2F838NZD       NZDBVSAV       ",
+                    "typeDescription": null,
+                    "mainType": "Savings",
+                    "subType": "000000000000",
+                    "idType": "B",
+                    "nicknameForTransaction": "2A838HKD       HKDBVSAV"
+                  },
+                  "balance": {
+                    "value": 10000000000,
+                    "additionalProperties": {
+
+                    },
+                    "currency": "NZD",
+                    "decimal": "100,000,000.00",
+                    "positive": 1,
+                    "decimalPlaces": 2
+                  },
+                  "selected": false,
+                  "subAccounts": null
+                },
+                {
+                  "providers": null,
+                  "accountInfo": {
+                    "type": "SGDBVSAV",
+                    "number": "001000124838",
+                    "additionalProperties": {
+
+                    },
+                    "description": "DDA",
+                    "alias": "",
+                    "status": "01",
+                    "nickname": "2F838SGD       SGDBVSAV       ",
+                    "typeDescription": null,
+                    "mainType": "Savings",
+                    "subType": "000000000000",
+                    "idType": "B",
+                    "nicknameForTransaction": "2A838HKD       HKDBVSAV"
+                  },
+                  "balance": {
+                    "value": 10000000000,
+                    "additionalProperties": {
+
+                    },
+                    "currency": "SGD",
+                    "decimal": "100,000,000.00",
+                    "positive": 1,
+                    "decimalPlaces": 2
+                  },
+                  "selected": false,
+                  "subAccounts": null
+                },
+                {
+                  "providers": null,
+                  "accountInfo": {
+                    "type": "THBBVSAV",
+                    "number": "001000124838",
+                    "additionalProperties": {
+
+                    },
+                    "description": "DDA",
+                    "alias": "",
+                    "status": "01",
+                    "nickname": "2F838THB       THBBVSAV       ",
+                    "typeDescription": null,
+                    "mainType": "Savings",
+                    "subType": "000000000000",
+                    "idType": "B",
+                    "nicknameForTransaction": "2A838HKD       HKDBVSAV"
+                  },
+                  "balance": {
+                    "value": 10000000000,
+                    "additionalProperties": {
+
+                    },
+                    "currency": "THB",
+                    "decimal": "100,000,000.00",
+                    "positive": 1,
+                    "decimalPlaces": 2
+                  },
+                  "selected": false,
+                  "subAccounts": null
+                },
+                {
+                  "providers": null,
+                  "accountInfo": {
+                    "type": "USDBVSAV",
+                    "number": "001000124838",
+                    "additionalProperties": {
+
+                    },
+                    "description": "DDA",
+                    "alias": "",
+                    "status": "01",
+                    "nickname": "2F838USD       USDBVSAV       ",
+                    "typeDescription": null,
+                    "mainType": "Savings",
+                    "subType": "000000000000",
+                    "idType": "B",
+                    "nicknameForTransaction": "2A838HKD       HKDBVSAV"
+                  },
+                  "balance": {
+                    "value": 10000000000,
+                    "additionalProperties": {
+
+                    },
+                    "currency": "USD",
+                    "decimal": "100,000,000.00",
+                    "positive": 1,
+                    "decimalPlaces": 2
+                  },
+                  "selected": false,
+                  "subAccounts": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "providers": null,
+          "accountInfo": {
+            "type": "BVTMS",
+            "number": "0010001248380000",
+            "additionalProperties": {
+
+            },
+            "description": "DDA",
+            "alias": "",
+            "status": "",
+            "nickname": "4T838             BVTMS       ",
+            "typeDescription": null,
+            "mainType": "TimeDeposit",
+            "subType": "000000000000",
+            "idType": "B",
+            "nicknameForTransaction": "4T838             BVTMS"
+          },
+          "balance": {
+            "value": 0,
+            "additionalProperties": {
+
+            },
+            "currency": "",
+            "decimal": "0",
+            "positive": 1,
+            "decimalPlaces": 0
+          },
+          "selected": true,
+          "subAccounts": null
+        },
+        {
+          "providers": null,
+          "accountInfo": {
+            "type": "HKDBVINV",
+            "number": "001000124838",
+            "additionalProperties": {
+
+            },
+            "description": "DDA",
+            "alias": "",
+            "status": "09",
+            "nickname": "2R838HKD       HKDBVINV       ",
+            "typeDescription": null,
+            "mainType": "Investment",
+            "subType": "000000000000",
+            "idType": "B",
+            "nicknameForTransaction": "2R838HKD       HKDBVINV"
+          },
+          "balance": {
+            "value": 0,
+            "additionalProperties": {
+
+            },
+            "currency": "",
+            "decimal": "0",
+            "positive": 1,
+            "decimalPlaces": 0
+          },
+          "selected": true,
+          "subAccounts": null
+        },
+        {
+          "providers": null,
+          "accountInfo": {
+            "type": "HKDSSSSA",
+            "number": "002220606292",
+            "additionalProperties": {
+
+            },
+            "description": "DDA",
+            "alias": "",
+            "status": "",
+            "nickname": "2C292HKD       HKDSSSSA       ",
+            "typeDescription": null,
+            "mainType": "Savings",
+            "subType": "000000000000",
+            "idType": "B",
+            "nicknameForTransaction": null
+          },
+          "balance": {
+            "value": 96124620,
+            "additionalProperties": {
+
+            },
+            "currency": "HKD",
+            "decimal": "961,246.20",
+            "positive": 1,
+            "decimalPlaces": 2
+          },
+          "selected": true,
+          "subAccounts": null
+        },
+        {
+          "providers": null,
+          "accountInfo": {
+            "type": "HKDSSCUA",
+            "number": "808040950001",
+            "additionalProperties": {
+
+            },
+            "description": "DDA",
+            "alias": "",
+            "status": "",
+            "nickname": "2C001HKD       HKDSSCUA       ",
+            "typeDescription": null,
+            "mainType": "Current",
+            "subType": "000000000000",
+            "idType": "B",
+            "nicknameForTransaction": null
+          },
+          "balance": {
+            "value": 7650591,
+            "additionalProperties": {
+
+            },
+            "currency": "HKD",
+            "decimal": "76,505.91",
+            "positive": 1,
+            "decimalPlaces": 2
+          },
+          "selected": true,
+          "subAccounts": null
+        },
+        {
+          "providers": null,
+          "accountInfo": {
+            "type": "HKDCRMPC",
+            "number": "5553020000497642",
+            "additionalProperties": {
+
+            },
+            "description": "DDA",
+            "alias": "",
+            "status": "",
+            "nickname": "3MH  HKD       HKDCRMPC       ",
+            "typeDescription": null,
+            "mainType": "Card",
+            "subType": "000000000002",
+            "idType": "B",
+            "nicknameForTransaction": null
+          },
+          "balance": {
+            "value": 25198,
+            "additionalProperties": {
+
+            },
+            "currency": "HKD",
+            "decimal": "251.98",
+            "positive": 0,
+            "decimalPlaces": 2
+          },
+          "selected": true,
+          "subAccounts": null
+        },
+        {
+          "providers": null,
+          "accountInfo": {
+            "type": "HKDCRMEB",
+            "number": "5589940000864251",
+            "additionalProperties": {
+
+            },
+            "description": "DDA",
+            "alias": "",
+            "status": "",
+            "nickname": "3ML  HKD       HKDCRMEB       ",
+            "typeDescription": null,
+            "mainType": "Card",
+            "subType": "000000000002",
+            "idType": "B",
+            "nicknameForTransaction": null
+          },
+          "balance": {
+            "value": 366047,
+            "additionalProperties": {
+
+            },
+            "currency": "HKD",
+            "decimal": "3,660.47",
+            "positive": 0,
+            "decimalPlaces": 2
+          },
+          "selected": true,
+          "subAccounts": null
+        },
+        {
+          "providers": null,
+          "accountInfo": {
+            "type": "HKDCRMB1",
+            "number": "5199310000864259",
+            "additionalProperties": {
+
+            },
+            "description": "DDA",
+            "alias": "",
+            "status": "",
+            "nickname": "3MT  HKD       HKDCRMB1       ",
+            "typeDescription": null,
+            "mainType": "Card",
+            "subType": "000000000002",
+            "idType": "B",
+            "nicknameForTransaction": null
+          },
+          "balance": {
+            "value": 437146,
+            "additionalProperties": {
+
+            },
+            "currency": "HKD",
+            "decimal": "4,371.46",
+            "positive": 0,
+            "decimalPlaces": 2
+          },
+          "selected": true,
+          "subAccounts": null
+        },
+        {
+          "providers": null,
+          "accountInfo": {
+            "type": "HKDCRMWB",
+            "number": "5592400000864251",
+            "additionalProperties": {
+
+            },
+            "description": "DDA",
+            "alias": "",
+            "status": "",
+            "nickname": "3MW  HKD       HKDCRMWB       ",
+            "typeDescription": null,
+            "mainType": "Card",
+            "subType": "000000000002",
+            "idType": "B",
+            "nicknameForTransaction": null
+          },
+          "balance": {
+            "value": 0,
+            "additionalProperties": {
+
+            },
+            "currency": "HKD",
+            "decimal": "0.00",
+            "positive": 1,
+            "decimalPlaces": 2
+          },
+          "selected": true,
+          "subAccounts": null
+        },
+        {
+          "providers": null,
+          "accountInfo": {
+            "type": "CNYCRRC1",
+            "number": "6250340000438162",
+            "additionalProperties": {
+
+            },
+            "description": "DDA",
+            "alias": "",
+            "status": "",
+            "nickname": "3RC  CNY       CNYCRRC1       ",
+            "typeDescription": null,
+            "mainType": "Card",
+            "subType": "000000000002",
+            "idType": "B",
+            "nicknameForTransaction": null
+          },
+          "balance": {
+            "value": 0,
+            "additionalProperties": {
+
+            },
+            "currency": "CNY",
+            "decimal": "0.00",
+            "positive": 1,
+            "decimalPlaces": 2
+          },
+          "selected": true,
+          "subAccounts": null
+        },
+        {
+          "providers": null,
+          "accountInfo": {
+            "type": "SSTMS",
+            "number": "001879592",
+            "additionalProperties": {
+
+            },
+            "description": "DDA",
+            "alias": "",
+            "status": "",
+            "nickname": "5T                SSTMS       ",
+            "typeDescription": null,
+            "mainType": "TimeDeposit",
+            "subType": "000000000000",
+            "idType": "B",
+            "nicknameForTransaction": null
+          },
+          "balance": {
+            "value": 0,
+            "additionalProperties": {
+
+            },
+            "currency": "",
+            "decimal": "0",
+            "positive": 1,
+            "decimalPlaces": 0
+          },
+          "selected": true,
+          "subAccounts": null
+        },
+        {
+          "providers": null,
+          "accountInfo": {
+            "type": "HKDSSSEC",
+            "number": "001368869085",
+            "additionalProperties": {
+
+            },
+            "description": "DDA",
+            "alias": "",
+            "status": "",
+            "nickname": "2R085HKD       HKDSSSEC       ",
+            "typeDescription": null,
+            "mainType": "Investment",
+            "subType": "000000000000",
+            "idType": "B",
+            "nicknameForTransaction": null
+          },
+          "balance": {
+            "value": 0,
+            "additionalProperties": {
+
+            },
+            "currency": "",
+            "decimal": "0",
+            "positive": 1,
+            "decimalPlaces": 0
+          },
+          "selected": true,
+          "subAccounts": null
+        },
+        {
+          "providers": null,
+          "accountInfo": {
+            "type": "SSIMP",
+            "number": "567311931120",
+            "additionalProperties": {
+
+            },
+            "description": "DDA",
+            "alias": "",
+            "status": "",
+            "nickname": "2I120             SSIMP       ",
+            "typeDescription": null,
+            "mainType": "Trade",
+            "subType": "000000000000",
+            "idType": "B",
+            "nicknameForTransaction": null
+          },
+          "balance": {
+            "value": 0,
+            "additionalProperties": {
+
+            },
+            "currency": "",
+            "decimal": "0",
+            "positive": 1,
+            "decimalPlaces": 0
+          },
+          "selected": true,
+          "subAccounts": null
+        },
+        {
+          "providers": null,
+          "accountInfo": {
+            "type": "CNYSSCUA",
+            "number": "018570341209",
+            "additionalProperties": {
+
+            },
+            "description": "DDA",
+            "alias": "",
+            "status": "",
+            "nickname": "2F209CNY       CNYSSCUA       ",
+            "typeDescription": null,
+            "mainType": "Current",
+            "subType": "000000000000",
+            "idType": "B",
+            "nicknameForTransaction": null
+          },
+          "balance": {
+            "value": 137576575,
+            "additionalProperties": {
+
+            },
+            "currency": "CNY",
+            "decimal": "1,375,765.75",
+            "positive": 1,
+            "decimalPlaces": 2
+          },
+          "selected": true,
+          "subAccounts": null
+        }
+      ]
+    }
+  ],
+  "common": {
+    "returnCode": "00000",
+    "returnReason": "",
+    "messageId": ""
+  }
+}

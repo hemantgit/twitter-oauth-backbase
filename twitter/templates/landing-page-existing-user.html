@@ -1,0 +1,52 @@
+<div class="row">
+    <div class="col-xs-12">
+        <h1 lp-i18n="Manage Bank Feeds" class="h1"></h1>
+        <h2 lp-i18n="Existing Connections" class="h2"></h2>
+    </div>
+</div>
+
+<div ng-show="mainCtrl.existingProviderList.length" class="landing-page-existing-user">
+    <div class="row">
+        <div class="col-xs-12">
+            <ul>
+                <li ng-repeat="list in mainCtrl.existingProviderList">
+                    <div>
+                        <div class="provider-list {{list.name | providerListFilter}}"></div>
+                    </div>
+                    <div>
+                        <div lp-i18n="Existing Connections"></div>
+                    </div>
+                    <div>
+                        <div class="text-right button-wrap">
+                            <button class="btn-default bold"
+                                    ng-click="mainCtrl.selectedSoftware=list.id; mainCtrl.providerName(); mainCtrl.view='existingBankFeed'">
+                                <span lp-i18n="Manage"></span>
+                                <i class="icon icon-chevron-right-small"></i>
+                            </button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Not finalized -->
+    <div class="row">
+        <div class="col-xs-12">
+            <h2 class="h2" lp-i18n="Connect other accounts"></h2>
+            <p>You will need to wait upto 48 hours depending on the provider in order to see the bankfeed appear in the
+                chosen provider.</p>
+        </div>
+    </div>
+    <!-- End-->
+</div>
+
+<div class="row button-wrap margin-top-30">
+    <div class="col-xs-6 col-lg-2 pull-right">
+        <button class="btn btn-primary"
+                ng-click="mainCtrl.view='newBankFeed'">
+            <span lp-i18n="Set up new bank Feed"></span>
+        </button>
+    </div>
+</div>
+
+

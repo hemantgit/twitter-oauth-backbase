@@ -1,0 +1,102 @@
+<h1>Set up your Bank Feed</h1>
+<div class="row">
+    <div class="col-xs-12 secondary-nav">
+        <ul class="nav nav-tabs">
+            <li class="active">
+                <span lp-i18n="Choose provider"></span>
+            </li>
+            <li>
+                <span lp-i18n="Select Account"></span>
+            </li>
+            <li>
+                <span lp-i18n="Confirmation"></span>
+            </li>
+            <li>
+                <span lp-i18n="Complete"></span>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="choose-provider">
+    <div class="row">
+        <div class="col-xs-12">
+            <p lp-i18n="Choose provider process guidance text one"></p>
+            <p lp-i18n="Choose provider process guidance text two" class="margin-top-10"></p>
+        </div>
+    </div>
+    <div class="row margin-top-30">
+        <div class="col-xs-12">
+            <p lp-i18n="Select provider" class="bold spacer"></p>
+        </div>
+    </div>
+
+    <div class="row select-provider margin-top-10" ng-show="mainCtrl.listOfSoftwares.length">
+        <div class="col-xs-6" ng-repeat="list in mainCtrl.listOfSoftwares">
+            <div class="provider-list {{list.name | providerListFilter}}">
+                <div class="radio">
+                    <input type="radio" name="list-of-softwares" value={{list.id}}
+                           class="input-radio" ng-model="mainCtrl.selectedSoftware"
+                           ng-click="mainCtrl.updateUniqueRef(list.UniqueRefFormat)">
+                    <label class="radio-label">{{list.name | providerListFilter}}</label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row" ng-show="!mainCtrl.listOfSoftwares.length">
+        <div class="col-xs-12">
+            <h2>Please Try after some time (connection issue)</h2>
+        </div>
+    </div>
+
+    <!-- Unique Ref text box-->
+    <div class="row margin-top-30 unique-ref" ng-if="mainCtrl.ifUniqueRefRequired">
+        <div class="col-xs-2">
+            <label for="uniqueRef" lp-i18n="unique reference heading"></label>
+        </div>
+        <div class="col-xs-4">
+            <input type="text" class="form-control" id="uniqueRef" placeholder="{{mainCtrl.uniqueRefPlaceHolder}}"
+                   value=""
+                   ng-model="mainCtrl.uniqueRef" ng-disabled="mainCtrl.selectedSoftware==''">
+            <div class="tool-tip" ng-class="{'disabled-tooltip': (!mainCtrl.selectedSoftware)}">
+                <i class="icon  icon-circle-fill-information"></i>
+                <span lp-i18n="unique reference toolTip"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="display-table unique-ref-text margin-top-30">
+        <div class="display-cell"><i class="icon icon-security-lock"></i></div>
+        <div class="display-cell"><span lp-i18n="unique reference footer"></span></div>
+    </div>
+
+    <div class="row button-wrap">
+        <div class="col-xs-2 col-xs-offset-8 text-right">
+            <button class="btn btn-default" ng-click="mainCtrl.resetAll();"><span lp-i18n="Cancel"></span></button>
+        </div>
+        <div class="col-xs-2 text-right">
+            <button class="btn btn-primary"
+                    ng-disabled="(!mainCtrl.uniqueRef && mainCtrl.ifUniqueRefRequired) || mainCtrl.selectedSoftware==''"
+                    ng-click="mainCtrl.chooseProviderContinue()">
+                <span lp-i18n="Continue"></span>
+            </button>
+        </div>
+    </div>
+</div>
+</div>
+<div class="overlay" ng-if="mainCtrl.ifoAuthRequired">
+    <div class="content">
+        <h2 lp-i18n="Xero transfer heading"></h2>
+        <p lp-i18n="Xero transfer text"></p>
+        <div class="row button-wrap">
+            <div class="col-xs-2 col-xs-offset-8 text-right">
+                <button class="btn btn-default" ng-click="mainCtrl.ifoAuthRequired=false"><span lp-i18n="Cancel"></span></button>
+            </div>
+            <div class="col-xs-2 text-right">
+                <button class="btn btn-primary" onclick="alert('Xero oAuth starts');">
+                    <span lp-i18n="Continue"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>

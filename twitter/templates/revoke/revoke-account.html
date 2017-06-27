@@ -1,0 +1,165 @@
+<h1>Revoke access for existing Bank Feed</h1>
+<div class="row">
+    <div class="col-xs-12 secondary-nav">
+        <ul class="nav nav-tabs">
+            <li class="visited">
+                <span lp-i18n="Choose provider"></span>
+            </li>
+            <li class="active">
+                <span lp-i18n="Select Account"></span>
+            </li>
+            <li>
+                <span lp-i18n="Confirmation"></span>
+            </li>
+            <li>
+                <span lp-i18n="Complete"></span>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="select-accounts">
+    <div class="row">
+        <div class="col-xs-12">
+            <p lp-i18n="Accounting Software" class="bold"></p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-3" lp-i18n="Provider Name"></div>
+        <div class="col-xs-9">{{mainCtrl.selectedProviderName }}</div>
+    </div>
+    <div class="list-wrap">
+        <div class="list custom-scroll account-list-{{mainCtrl.myCountry}}">
+            <ul class="arrow-box" id="accordion">
+                <li class="bold padding-left-20">
+                    <div class="row">
+                        <div class="col-xs-10">
+                            <input type="checkbox" class="input-checkbox" id="CheckAll"
+                                   ng-click="mainCtrl.checkAll($event,'existing')"/>
+                            <label for="CheckAll" class="checkbox-label" lp-i18n="Account name"></label>
+                        </div>
+                        <div class="col-xs-1">
+                            <p>Currency</p>
+                        </div>
+                    </div>
+                </li>
+                <!-- List starts -->
+                <li ng-repeat="details in noOfRows=(mainCtrl.companyDetails | limitTo:mainCtrl.limit)"
+                    ng-model="noOfRows.length" class="panel-group">
+                    <div class="panel panel-default" ng-if=(mainCtrl.myCountry=='HK')>
+                        <div class="panel-heading">
+                            <h4 class="panel-title padding-left-20">
+                                <div class="row">
+                                    <div class="col-xs-10">
+                        <span>
+                        <input type="checkbox" class="input-checkbox" id={{$index}}-{{details.companyName}}
+                               ng-model="details.isSelected"
+                               ng-click="mainCtrl.selectThisAccount('existing',$event)"/>
+                            <label for={{$index}}-{{details.companyName}}
+                                   class="checkbox-label">{{details.companyName}}</label>
+                        </span>
+                                    </div>
+                                    <div class="col-xs-1 uppercase">
+                                        {{details.currency}}
+                                    </div>
+                                    <div class="col-xs-1" ng-if="details.accountListConnected">
+                                        <a data-toggle="collapse" data-parent="#accordion" href=#collapse{{$index}}
+                                           class="accordion-arrow">
+                                            <i class="icon"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </h4>
+                        </div>
+                    </div>
+                    <div id=collapse{{$index}} ng-if="details.accountListConnected" ng-class="{'panel-collapse collapse': (mainCtrl.myCountry == 'HK')}">
+                        <div class="panel-body">
+                            <ul class="tier1">
+                                <li ng-repeat="teir1 in accountList=(details.accountListConnected | filter:{provider:mainCtrl.selectedSoftware})" class="padding-left-20">
+                                    <div class="row">
+                                        <div class="col-xs-10">
+                                                <span>
+                                                <input type="checkbox" class="input-checkbox" id={{teir1.accountNumber}}
+                                                       ng-model="teir1.isSelected"
+                                                       ng-click="mainCtrl.selectThisAccount('existing')"/>
+                                                    <label for={{teir1.accountNumber}}
+                                                           class="checkbox-label">{{teir1.accountName}}</label>
+                                                </span>
+                                            <div class="details">{{teir1.accountNumber}}
+                                                <span> - {{teir1.accountType}}</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-1 uppercase">
+                                            {{teir1.currency}}
+                                        </div>
+                                    </div>
+                                    <ul ng-if="teir1.subAccounts" class="tier2">
+                                        <li ng-repeat="teir2 in teir1.subAccounts">
+                                            <div class="row">
+                                                <div class="col-xs-10">
+
+                                                    <span>
+                                                        <input type="checkbox" class="input-checkbox"
+                                                               id={{teir2.accountNumber}}
+                                                               ng-model="teir2.isSelected"
+                                                               ng-click="mainCtrl.selectThisAccount('existing')"/>
+                                                            <label for={{teir2.accountNumber}}
+                                                                   class="checkbox-label">{{teir2.accountName}}</label>
+                                                        </span>
+                                                        <span>
+                                                        {{teir2.accountName}}
+                                                        </span>
+                                                    <div class="details">{{teir2.accountNumber}} <span> - {{teir2.accountType}}</span>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-1 uppercase">
+                                                    {{teir2.currency}}
+                                                </div>
+                                            </div>
+                                            <ul ng-if="teir2.subAccounts" class="tier3">
+                                                <li ng-repeat="teir3 in teir1.subAccounts">
+                                                    <div class="row">
+                                                        <div class="col-xs-10">
+
+                                                    <span class="hide">
+                                                        <input type="checkbox" class="input-checkbox"
+                                                               id={{teir3.accountNumber}}
+                                                               ng-model="teir2.isSelected"
+                                                               ng-click="mainCtrl.selectThisAccount('existing')"/>
+                                                            <label for={{teir3.accountNumber}}
+                                                                   class="checkbox-label">{{teir3.accountName}}</label>
+                                                        </span>
+                                                        <span>
+                                                        {{teir3.accountName}}
+                                                        </span>
+                                                            <div class="details">{{teir3.accountNumber}} <span> - {{teir3.accountType}}</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xs-1 uppercase">
+                                                            {{teir3.currency}}
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <!-- List Ends -->
+            </ul>
+        </div>
+    <div class="row button-wrap">
+        <div class="col-xs-2 col-xs-offset-8 text-right">
+            <button class="btn btn-default" ng-click="mainCtrl.resetAll()"><span
+                    lp-i18n="Cancel"></span></button>
+        </div>
+        <div class="col-xs-2 text-right">
+            <button class="btn btn-primary" ng-disabled="mainCtrl.isBtnDisabled"
+                    ng-click="mainCtrl.revokeBankFeedFlow='revokeConfirmation'; mainCtrl.saveSelectedAccounts('existing')">
+                <span lp-i18n="Continue"></span>
+            </button>
+        </div>
+    </div>
+</div>

@@ -1,15 +1,6 @@
-/**
- * Widget Class
- * @constructor
- * @return {Object}
- */
-var Widget = module.exports = function Widget () {
-
+module.exports = function Widget () {
+    this.getPreference = function() {};
+    this.getResolvedPreference = function() {};
+    this.addEventListener = function() {};
+    this.getPreferenceFromParents = function() {};
 };
-
-Widget.prototype.getPreference = function(name) {
-    switch (name) {
-        case 'some-pref': return 'some-value'; break;
-    }
-}
-Widget.prototype.setPreference = function() {}

@@ -1,0 +1,34 @@
+[
+  {
+    "rule": null,
+    "eodfile": "0",
+    "realtime": "0",
+    "name": "XERO",
+    "countries": "UK,HK",
+    "id": "HEX-01"
+  },
+  {
+    "rule": null,
+    "eodfile": "1",
+    "realtime": "0",
+    "name": "Sage",
+    "countries": "UK",
+    "id": "HEX-02"
+  },
+  {
+    "rule": "ref:8",
+    "eodfile": "1",
+    "realtime": "0",
+    "name": "FREEAGENT",
+    "countries": "UK",
+    "id": "HEX-03"
+  },
+  {
+    "rule": "ref:8",
+    "eodfile": "1",
+    "realtime": "0",
+    "name": "QUICKBOOKS",
+    "countries": "UK",
+    "id": "HEX-04"
+  }
+]

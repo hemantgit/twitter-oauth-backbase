@@ -1,13 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <catalog>
     <widget>
-        <name>twitter</name>
+        <name>hsbc-widget-account-share</name>
         <contextItemName>[BBHOST]</contextItemName>
         <properties>
-            <property label="Title" name="title" viewHint="text-input,admin">
-                <value type="string">twitter</value>
+            <property label="Title" name="title">
+                <value type="string">HSBC Widget Account Share</value>
             </property>
             <property label="Icon" name="icon" viewHint="text-input,admin,designModeOnly">
-                <value type="string"></value>
+                <value type="string" />
             </property>
             <property name="src">
                 <value type="string">$(itemRoot)/index.html</value>
@@ -15,12 +16,39 @@
             <property name="thumbnailUrl">
                 <value type="string">$(itemRoot)/icon.png</value>
             </property>
-            <!-- custom properties -->
-            <!--  <property name="some-pref" label="Some preference" viewHint="text-input,admin,designModeOnly">
-                <value type="string">some-value</value>
-            </property> -->
+            <property name="locale" label="Locale">
+                <value type="string">en-US</value>
+            </property>
+            <!-- Custom properties -->
+            <property name="enabledForHK" label="Enabled for Hong Kong" viewHint="checkbox,admin,designModeOnly">
+                <value type="boolean">true</value>
+            </property>
+            <property name="getAccountingSoftwareUrl" label="Get Accounting Software URL" viewHint="text-input,admin,designModeOnly">
+                <!--<value type="string">$(servicesPath)/services/rest/accountshare/provider</value>-->
+                <value type="string">$(itemRoot)/data/provider.json</value>
+            </property>
+            <property name="getAccountInformationUrl" label="Get Account Information URL" viewHint="text-input,admin,designModeOnly">
+                <value type="string">$(itemRoot)/data/account-list.json</value>
+                <!--<value type="string">$(servicesPath)/services/rest/accountshare/accprovidermap/listAll</value>-->
+            </property>
+            <property name="saveCustomerDetailsUrl" label="Save Customer Details URL" viewHint="text-input,admin,designModeOnly">
+                <value type="string">$(servicesPath)/services/rest/accountshare/accprovidermap/save</value>
+            </property>
+            <property name="RevokeAccessUrl" label="Revoke Access Url " viewHint="text-input,admin,designModeOnly">
+                <value type="string">$(servicesPath)/services/rest/accountshare/accprovidermap/delete</value>
+            </property>
+            <property name="termsAndConditionsUrl" label="Terms And Conditions Url" viewHint="text-input,admin,designModeOnly">
+                <!--<value type="string">$(servicesPath)/services/rest/accountshare/termcon</value>-->
+                <value type="string">$(itemRoot)/data/tnc.json</value>
+            </property>
+            <property name="termsAndConditionsSaveUrl" label="Terms And Conditions Save Url" viewHint="text-input,admin,designModeOnly">
+                <value type="string">$(servicesPath)/services/rest/accountshare/termcon/save</value>
+            </property>
+            <property name="userIndicatorUrl" label="Primary User Check" viewHint="text-input,admin,designModeOnly">
+                <value type="string">$(servicesPath)/services/rest/accountshare/userIndicator</value>
+                <!-- <value type="string">$(itemRoot)/data/usertype.json</value>-->
+            </property>
         </properties>
-        <tags>
-        </tags>
+        <tags />
     </widget>
 </catalog>

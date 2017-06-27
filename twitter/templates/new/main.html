@@ -1,0 +1,17 @@
+<div ng-init="mainCtrl.newBankFeedFlow='chooseProvider'">
+    <div ng-switch="mainCtrl.newBankFeedFlow">
+        <div ng-switch-when="chooseProvider">
+            <div lp-template="'templates/new/choose-provider.html'"></div>
+        </div>
+        <div ng-switch-when="selectAccounts">
+            <div lp-template="'templates/new/select-accounts.html'"></div>
+        </div>
+        <div ng-switch-when="confirmation">
+            <div lp-template="'templates/new/confirmation.html'"></div>
+        </div>
+        <div ng-switch-when="complete">
+            <div lp-template="'templates/new/complete.html'"></div>
+        </div>
+    </div>
+</div>
+

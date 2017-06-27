@@ -1,5 +1,50 @@
-<div ng-controller="MainCtrl as mainCtrl">
-    <h3 ng-bind="mainCtrl.state.title"></h3>
-    <img ng-src="{{mainCtrl.state.icon}}" alt="{{mainCtrl.state.title}}" />
-    <button ng-click='mainCtrl.getTest1()'> twiter</button>
+<div ng-controller="MainCtrl as mainCtrl" class="permission-wrap">
+    <div class="container-fluid">
+
+        <div ng-if="mainCtrl.isDataLoaded">
+            <!-- Show message for secondary User -->
+            <div class="landing-page" ng-if="!mainCtrl.isPrimaryUser">
+                <!-- UX pending for this section. This is temporary -->
+                <h1 class="text-center margin-top-30">Currently the functionality is only available to the Primary User.
+                    <br/> Please contact your Primary User.</h1>
+            </div>
+
+            <!-- Widget content accessible only to the Primary User -->
+            <div class="landing-page" ng-if="mainCtrl.isPrimaryUser">
+                <div ng-init="mainCtrl.view='landingPage'">
+                    <div ng-switch="mainCtrl.view">
+                        <div ng-switch-when="landingPage">
+                            <div ng-switch="mainCtrl.isExistingUser">
+                                <div ng-switch-when="">
+                                    <h3> Loading ....</h3>
+                                </div>
+                                <!-- Existing  User Landing Screen-->
+                                <div ng-switch-when=true>
+                                    <div lp-template="'templates/landing-page-existing-user.html'"></div>
+                                </div>
+                                <!-- New User Landing Screen-->
+                                <div ng-switch-when=false>
+                                    <div lp-template="'templates/landing-page-new-user.html'"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div ng-switch-when="newBankFeed">
+                            <div class="">
+                                <div lp-template="'templates/new/main.html'"></div>
+                            </div>
+                        </div>
+                        <div ng-switch-when="existingBankFeed">
+                            <div class="">
+                                <div lp-template="'templates/revoke/main.html'"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="landing-page" ng-if="!mainCtrl.isDataLoaded">
+            <h3>Error code 404 - For Account/Provider List</h3>
+        </div>
+    </div>
 </div>

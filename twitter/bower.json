@@ -1,8 +1,11 @@
 {
-  "name": "twitter",
+  "name": "hsbc-widget-account-share",
   "version": "0.1.0-alpha.0",
-  "description": "Twitter",
-  "main": "dist/twitter.js",
+  "description": "Hsbc widget account share",
+  "main": "./scripts/main.js",
+  "authors": [
+    ""
+  ],
   "moduleType": [
     "umd"
   ],
@@ -15,16 +18,26 @@
   "dependencies": {
     "base": "^3.x",
     "core": "^3.x",
-    "ui": "^3.x"
+    "angular-bootstrap": "^2.3.0",
+    "angular-animate": "~1.5.8",
+    "hsbc-ui": "^1.0.1",
+    "hsbc-ui": "../../hsbc_ui",
+    "hsbc-theme": "^1.x",
+    "hsbc-theme": "../../hsbc_theme",
+    "hsbc-config": "^1.0.1",
+    "hsbc-config": "../../hsbc_config"
+  },
+  "resolutions": {
+    "base": "^3.0.4",
+    "core": "^3.0.0",
+    "angular": "~1.5.8"
   },
   "devDependencies": {
     "mock": "^1.x",
+    "angular-mocks": "~1.2.28",
+    "requirejs": "~2.1.20",
     "config": "^3.x",
-    "theme-default": "^1.x",
-    "angular-mocks": "~1.5",
-    "requirejs": "~2.1.20"
-  },
-  "config": {
-    "entry": { "twitter" : "scripts/main.js" }
+    "theme-default": "^1.x"
   }
 }
+

@@ -3,42 +3,37 @@
  *  Copyright © Backbase B.V.
  *  ----------------------------------------------------------------
  *  Filename : main.js
- *  Description: Twitter
+ *  Description: bankAccount
  *  ----------------------------------------------------------------
  */
 
-define( function (require, exports, module) {
+define(function (require, exports, module) {
 
     'use strict';
 
-    module.name = 'twitter';
+    module.name = 'hsbc-widget-account-share';
 
-    // External Dependencies
     var base = require('base');
     var core = require('core');
     var ui = require('ui');
 
-    // Internal Dependencies
-    var Model = require('./model');
-    var MainCtrl = require('./controllers/main-ctrl');
-    
-    require('./chrome_ex_oauthsimple');
-
     var deps = [
         core.name,
-        ui.name
+        ui.name,
     ];
 
     /**
      * @ngInject
      */
     function run() {
-        // Module is Bootstrapped
+        //Module is Bootstrapped
     }
 
     module.exports = base.createModule(module.name, deps)
-        .constant('WIDGET_NAME', module.name )
-        .controller('MainCtrl', MainCtrl )
-        .factory( 'model', Model )
-        .run( run );
+        .constant('WIDGET_NAME', module.name)
+        .controller(require('./controllers'))
+        .directive(require('./directive'))
+        .service(require('./models'))
+        .filter(require('./filter'))
+        .run(run);
 });

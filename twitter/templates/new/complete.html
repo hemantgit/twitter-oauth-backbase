@@ -1,0 +1,111 @@
+<div id="complete-page-new">
+    <div class="complete">
+        <h1>Set up your Bank Feed</h1>
+        <div class="row">
+            <div class="col-xs-12 secondary-nav">
+                <ul class="nav nav-tabs">
+                    <li class="visited">
+                        <span lp-i18n="Choose provider"></span>
+                    </li>
+                    <li class="visited">
+                        <span lp-i18n="Select Account"></span>
+                    </li>
+                    <li class="visited">
+                        <span lp-i18n="Confirmation"></span>
+                    </li>
+                    <li class="visited">
+                        <span lp-i18n="Complete"></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="select-accounts complete">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="bank-feed" ng-class="{'error': (mainCtrl.bankFeedState == 'create-error'), 'success': (mainCtrl.bankFeedState == 'create-success'),
+              'pending': mainCtrl.bankFeedState == 'pending'}">
+                        <div ng-if="mainCtrl.bankFeedState == 'create-success'">
+                            <p><i class="status"></i><span lp-i18n="Bank Feed Successful" class="bold"></span></p>
+                            <p lp-i18n="Successful Submission Subtext one"></p>
+                            <p lp-i18n="Successful Submission Subtext two"></p>
+                        </div>
+                <span ng-if="mainCtrl.bankFeedState == 'create-error'">
+                    <span class="bold" lp-i18n="Bank Feed Fail"></span>
+                    <span lp-i18n="Bank Feed Error Msg"></span>
+                </span>
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-3" lp-i18n="Date"></div>
+                        <div class="col-xs-9">
+                            <spna class="bold">{{mainCtrl.date | date : "dd MMM y h:mm" }}</spna>
+                        </div>
+                    </div>
+                    <div class="row margin-top-10">
+                        <div class="col-xs-3" lp-i18n="BIB ID"></div>
+                        <div class="col-xs-9">
+                            <spna class="bold"> [ Place Holder for Customer ID]</spna>
+                        </div>
+                    </div>
+                    <div class="row margin-top-10">
+                        <div class="col-xs-3" lp-i18n="Selected Provider"></div>
+                        <div class="col-xs-9">
+                            <spna class="bold">{{mainCtrl.selectedProviderName }}</spna>
+                        </div>
+                    </div>
+                    <div class="row margin-top-10" ng-if="mainCtrl.ifUniqueRefRequired">
+                        <div class="col-xs-3" lp-i18n="unique Reference"></div>
+                        <div class="col-xs-9">{{mainCtrl.uniqueRef}}</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="list custom-scroll selected-list-{{mainCtrl.myCountry}}">
+                        <ul class="arrow-box selected-account-list">
+                            <!-- List starts -->
+                            <li class="bold">
+                                <div class="row">
+                                    <div class="col-xs-10">
+                                        <span lp-i18n="Account"></span>
+                                    </div>
+                                    <div class="col-xs-1">
+                                        <span lp-i18n="Currency"></span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li ng-repeat="listItem in noOfRows=(mainCtrl.userSelectedAccountsArr)"
+                                ng-model="noOfRows.length" class={{listItem.ui}}>
+                                <div class="row">
+                                    <div class="col-xs-10">
+                                            <span>
+                                                {{listItem.accountName}}
+                                            </span>
+                                        <div class="details">{{listItem.accountNumber}}
+                                            <span> - {{listItem.accountType}}</span></div>
+                                    </div>
+                                    <div class="col-xs-1">
+                                        {{listItem.currency}}
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- List Ends -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row button-wrap hidden-print">
+                <div class="col-xs-2 col-xs-offset-8 text-right">
+                    <button class="btn btn-default" ng-click="mainCtrl.printThis('complete-page-new');"><span>Print this screen</span><i
+                            class="icon icon-print"></i></button>
+                </div>
+                <div class="col-xs-2 pull-right">
+                    <button class="btn btn-primary" ng-click="mainCtrl.resetAll()">
+                        <span>Back to overview</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

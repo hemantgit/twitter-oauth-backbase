@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:g="http://www.backbase.com/2008/gadget" xml:lang="en">
 <head>
-    <title>twitter</title>
+    <title>HSBC Widget Account Share</title>
     <meta http-equiv="Content-Type" content="text/xml; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- add theme -->
     <link href="$(contextRoot)/static/features/%5BBBHOST%5D/theme-default/dist/styles/base.css" rel="stylesheet">
-    <link rel="stylesheet" href="dist/styles/twitter.css" type="text/css" />
+    <link rel="stylesheet" href="dist/styles/hsbc-widget-account-share.css" type="text/css" />
 
     <script src="$(contextRoot)/static/features/%5BBBHOST%5D/requirejs/require.js"></script>
     <script src="$(contextRoot)/static/features/%5BBBHOST%5D/jquery/dist/jquery.js"></script>
@@ -16,14 +16,14 @@
     <script>
     require(['base', 'mock'], function (base, mock) {
         mock.Widget().then(function(__WIDGET__) {
-            base.requireWidget(__WIDGET__, 'dist/twitter');
+            base.requireWidget(__WIDGET__, 'dist/hsbc-widget-account-share');
         });
     });
     </script>
 
 </head>
 
-<body class="lp-twitter ng-cloak">
+<body class="lp-hsbc-widget-account-share ng-cloak">
     <div lp-template="'templates/main.ng.html'"></div>
 </body>
 </html>

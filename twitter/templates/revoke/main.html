@@ -1,0 +1,14 @@
+<div ng-init="mainCtrl.revokeBankFeedFlow='revokeAccountSharing'">
+    <div ng-switch="mainCtrl.revokeBankFeedFlow">
+        <div ng-switch-when="revokeAccountSharing">
+            <div lp-template="'templates/revoke/revoke-account.html'"></div>
+        </div>
+        <div ng-switch-when="revokeConfirmation">
+            <div lp-template="'templates/revoke/revoke-confirmation.html'"></div>
+        </div>
+        <div ng-switch-when="revokeComplete">
+            <div lp-template="'templates/revoke/revoke-complete.html'"></div>
+        </div>
+    </div>
+</div>
+

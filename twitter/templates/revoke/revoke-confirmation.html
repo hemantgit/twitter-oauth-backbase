@@ -1,0 +1,92 @@
+<h1>Revoke access for existing Bank Feed</h1>
+<div class="row">
+    <div class="col-xs-12 secondary-nav">
+        <ul class="nav nav-tabs">
+            <li class="visited">
+                <span lp-i18n="Choose provider"></span>
+            </li>
+            <li class="visited">
+                <span lp-i18n="Select Account"></span>
+            </li>
+            <li class="active">
+                <span lp-i18n="Confirmation"></span>
+            </li>
+            <li>
+                <span lp-i18n="Complete"></span>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="select-accounts confirmation">
+    <div class="row">
+        <div class="col-xs-8">
+            <p class="bold" lp-i18n="Accounting Software"></p>
+            <div class="row">
+                <div class="col-xs-3" lp-i18n="Provider Name"></div>
+                <div class="col-xs-9">{{mainCtrl.selectedProviderName }}</div>
+            </div>
+            <div class="row" ng-if="mainCtrl.ifUniqueRefRequired">
+                <div class="col-xs-3" lp-i18n="unique Reference"></div>
+                <div class="col-xs-9">{{mainCtrl.uniqueRef}}</div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="list custom-scroll selected-list-{{mainCtrl.myCountry}}">
+                <ul class="arrow-box selected-account-list">
+                    <!-- List starts -->
+                    <li class="bold">
+                        <div class="row">
+                            <div class="col-xs-10">
+                                <span lp-i18n="Account"></span>
+                            </div>
+                            <div class="col-xs-1">
+                                <span lp-i18n="Currency"></span>
+                            </div>
+                        </div>
+                    </li>
+                    <li ng-repeat="listItem in noOfRows=(mainCtrl.userSelectedAccountsArr)"
+                        ng-model="noOfRows.length" class={{listItem.ui}}>
+                        <div class="row">
+                            <div class="col-xs-10">
+                                            <span>
+                                                {{listItem.accountName}}
+                                            </span>
+                                <div class="details">{{listItem.accountNumber}}
+                                    <span> - {{listItem.accountType}}</span></div>
+                            </div>
+                            <div class="col-xs-1">
+                                {{listItem.currency}}
+                            </div>
+                        </div>
+                    </li>
+                    <!-- List Ends -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="terms-condition margin-top-30">
+        <input type="checkbox" class="input-checkbox" id="terms-condition"
+               ng-model="mainCtrl.condition"/>
+        <label for='terms-condition' class="checkbox-label"></label>
+        <span lp-i18n="terms and conditions text" terms-condition></span>
+    </div>
+
+    <div class="row button-wrap">
+        <div class="col-xs-2 col-xs-offset-8 text-right">
+            <button class="btn btn-default" ng-click="mainCtrl.resetAll()"><span lp-i18n="Cancel"></span></button>
+        </div>
+        <div class="col-xs-2 text-right">
+            <button class="btn btn-primary"
+                    ng-disabled="!mainCtrl.condition"
+                    ng-click="mainCtrl.storeData('revoke');mainCtrl.revokeBankFeedFlow='revokeComplete'">
+                <span lp-i18n="Continue"></span>
+            </button>
+        </div>
+    </div>
+</div>
